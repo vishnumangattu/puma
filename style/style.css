@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top
+{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(133, 118, 78);
+    text-align: center;
+}
+.top h3{
+    padding-top: 10px;
+    color: white;
+}
+.nav
+{
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+    background-color: rgb(24, 20, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.nav img
+{
+    width:50px;
+    height: 50px;
+    padding: 0;
+    margin-left:30px;
+}
+
+.right img
+{
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+}
+.nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.nav li{
+    list-style: none;
+    padding: 20px;
+    margin-left: 0%;
+}
+.right ul
+{
+    margin-left: 65%;
+    display: flex;
+    right: 0;
+}
+.fff img{
+    margin-right: 20px;
+}
+.fff 
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 0px 10px;
+    height: 8px;
+    margin-right: 20px;
+}
+.offer
+{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/magenta.jpg.jpg);
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.offer h1{
+    padding-top: 15vh;
+}
+.offer h2{
+    margin-right: 100px;
+}
+.btn
+{
+    border: 0px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    font-weight: bold;
+}
+.head
+{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    line-height: 50px;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+}
+
+.discount
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.round
+{
+    border: 2px solid rgb(233, 89, 28);
+    width: 120px;
+    height: 120px;  
+    border-radius: 100%;
+    margin: 0px 30px;
+
+}
+.round img{
+    width: 95%;
+    height: 95%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.carrot
+{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/carrot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.carrot h1,h2,h4,button
+{
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-weight: normal;
+
+}
+.carrot h4{
+    margin-left: 100px;
+}
+.carrot,.shopgrid h1{
+    font-weight: bold;
+    padding-top: 200px;
+}
+.bttn
+{
+    border: 0px;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+}
+.shopgrid
+{
+    margin-top: 5px;
+    width: 100%;
+    height: 80vh;
+  background-image: url(../images/111.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.shopgrid button
+{
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.shopgrid h3{
+    margin-right: 70px;
+    margin-top: 5px;
+}
+.textm1
+{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/textm2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    align-items: end;
+}
+.txtm1
+{
+    padding-bottom: 150px;
+    padding-right: 80px;
+    text-align: center;
+
+}
+.txtm1 h1,h3,h4
+{
+    padding-left: 90px;
+}
+.textm2
+{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/textm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: start;
+}
+.txtm2
+{
+    padding-top: 200px;
+    padding-left: 80px;
+    text-align: center;
+
+}
+.txtm2 h3
+{
+    padding-right: 60px;
+    margin-top: 10px;
+}
+.txtm2 button
+{
+    margin-top: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.textm3
+{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/txtm5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black; 
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    align-items: end;
+}
+.txtm3
+{
+    padding-bottom: 150px;
+    padding-right:40px;
+    text-align: center;
+
+}
+.txtm3 h3
+{
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.txtm3 button
+{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.textm4
+{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/textm6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: start;
+}
+.txtm4
+{
+    padding-top: 170px;
+    padding-left: 80px;
+    text-align: center;
+
+}
+.txtm4 h3
+{
+    padding-right: 60px;
+    margin-top: 10px;
+}
+.txtm4 button
+{
+    margin-top: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.video
+{
+    margin:  50px 0px;
+    background-image: url(../images/tenor.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.video button
+{
+   margin-bottom: 70px;
+   margin-right: 20px;
+}
+.grid2
+{
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+
+}
+.grid2 img
+{
+    margin: 0px 30px;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+.txtimage1{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.txtimage1 h2{
+    font-weight: bold;
+}
+.txtimage1 button{
+width: 100px;
+padding: 10px  ;
+border:0px;
+color: white;
+background-color: black;
+}
+.txtimage1 h4{
+    padding-left: 50px;
+}
+.gridhead
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gridof4{
+    width: 80%;
+    height: 50vh;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.g1{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+.i1
+{
+    background-image: url(../images/grid41.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.i2
+{
+    background-image: url(../images/grid42.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.i3
+{
+    background-image: url(../images/grid43.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.i4
+{
+    background-image: url(../images/grid44.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.g1 h2,h4{
+    margin-left: 0px;
+    font-weight: bold;
+    text-shadow: 2px black;
+}
+.hhh
+{
+    margin-left: 60px;
+}
+.scrollgrid{
+    height: 100vh;
+    margin-bottom: 10px;
+    display: grid;
+    gap:10px;
+    margin-left: 20px;
+    grid-template-columns: repeat(13,1fr);
+    grid-template-rows: repeat(2,1fr);
+    overflow-x: scroll;
+}
+.gg{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+.gg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
